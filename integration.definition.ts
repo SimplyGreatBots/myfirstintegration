@@ -3,6 +3,7 @@ import { name } from './package.json'
 
 export default new IntegrationDefinition({
   name,
+  description: 'This is my first integration!',
   version: '0.2.0',
   channels: {
     channel: {
